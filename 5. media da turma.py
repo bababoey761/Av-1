@@ -4,7 +4,7 @@ if n <= 0:
     print("Número inválido de alunos.") # Verifica se o número de alunos é válido
     exit()
 notas = [] # Cria uma lista para armazenar as notas dos alunos
-for i in range(n): # Lê as notas dos alunos
+for i in range(n): # loop para Ler as notas dos alunos
     nota = float(input("Digite a nota do aluno {}: ".format(i + 1))) # Lê a nota do aluno
     if nota < 0 or nota > 10: # Verifica se a nota é válida
         print("Nota inválida. As notas devem estar entre 0 e 10.") # Exibe mensagem de erro
