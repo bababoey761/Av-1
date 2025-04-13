@@ -1,4 +1,4 @@
-#Apos uma observação no codigo da questão 10, percebi que poderia tornar o codigo de ordem crescente mais pratico, podendo escrever os 3 numeros em uma unica linha
+#Apos uma observação durando a realização da questão 10, percebi que poderia tornar o codigo de ordem crescente mais pratico, podendo escrever os 3 numeros em uma unica linha
 numeros = list(map(int, input("Digite três números separados por espaço: ").split())) # Solicita três números inteiros em uma única linha, separados por espaço
 for i in range(3): # Verifica se foram digitados exatamente três números
     if len(numeros) != 3:
