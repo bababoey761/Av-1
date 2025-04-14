@@ -1,5 +1,3 @@
-
-# Solicita a string e os caracteres
 string = input("Digite uma palavra: ")
 
 if len(string) >= 100: # verifica se a string tem 100 ou mais caracteres
@@ -9,8 +7,5 @@ if len(string) >= 100: # verifica se a string tem 100 ou mais caracteres
 caracter1 = input("Digite o primeiro caracter (a ser substituído): ")
 caracter2 = input("Digite o segundo caracter (substituto): ")
 
-# Substitui todas as ocorrências do primeiro caracter pelo segundo
-string_resultante = string.replace(caracter1, caracter2)
-
-# Exibe a string resultante
-print("String resultante:", string_resultante)
+string_resultante = string.replace(caracter1, caracter2) # Substitui todas as ocorrências do primeiro caracter pelo segundo
+print("String resultante:", string_resultante) # Exibe a string resultante
